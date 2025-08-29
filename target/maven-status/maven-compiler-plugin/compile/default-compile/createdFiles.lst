@@ -1,7 +1,0 @@
-me\regos\minecraftdiscordbridge\listeners\BaseListener.class
-me\regos\minecraftdiscordbridge\listeners\events\PlayerDeathListener.class
-me\regos\minecraftdiscordbridge\controllers\ToDiscordController.class
-me\regos\minecraftdiscordbridge\listeners\events\PlayerJoinListener.class
-me\regos\minecraftdiscordbridge\Minecraft_Discord_bridge.class
-me\regos\minecraftdiscordbridge\listeners\events\ChatEventListener.class
-me\regos\minecraftdiscordbridge\listeners\events\PlayerQuitListener.class

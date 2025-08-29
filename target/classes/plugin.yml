@@ -1,5 +1,0 @@
-name: MinecraftDiscordBridge
-version: '1.2'
-main: me.regos.minecraftdiscordbridge.Minecraft_Discord_bridge
-api-version: '1.21'
-authors: [ReGos]
