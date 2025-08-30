@@ -18,8 +18,7 @@ public class PlayerJoinListener extends BaseListener {
     public void OnPlayerJoin(PlayerJoinEvent e) {
         String minecraftMessage = PlainTextComponentSerializer.plainText().serialize(e.joinMessage());
         String fullMessage = escapeMarkdown(minecraftMessage);
-        Bukkit.getScheduler().runTaskAsynchronously(plugin, () -> {
-            controller.distribute(fullMessage);
-        });
+        controller.distribute(fullMessage);
+
     }
 }

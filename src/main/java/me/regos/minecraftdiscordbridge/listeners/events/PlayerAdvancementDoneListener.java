@@ -29,9 +29,7 @@ public class PlayerAdvancementDoneListener extends BaseListener {
 //        String s9 = String.valueOf(e.getAdvancement().getDisplay().isHidden());
 //        String s10 = PlainTextComponentSerializer.plainText().serialize(e.getPlayer().displayName());
 
-            Bukkit.getScheduler().runTaskAsynchronously(plugin, () -> {
-                controller.distribute(fullMessage);
-            });
+            controller.distribute(fullMessage);
         }
     }
 }

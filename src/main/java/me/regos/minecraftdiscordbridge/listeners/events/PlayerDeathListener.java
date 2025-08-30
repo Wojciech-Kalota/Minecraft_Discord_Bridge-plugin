@@ -17,9 +17,7 @@ public class PlayerDeathListener extends BaseListener {
     @EventHandler
     public void OnPlayerDeath(PlayerDeathEvent e) {
         String minecraftMessage = PlainTextComponentSerializer.plainText().serialize(e.deathMessage());
-        String fullMessage = minecraftMessage;
-        Bukkit.getScheduler().runTaskAsynchronously(plugin, () -> {
-            controller.distribute(fullMessage);
-        });
+        String fullMessage = escapeMarkdown(minecraftMessage);
+        controller.distribute(fullMessage);
     }
 }
