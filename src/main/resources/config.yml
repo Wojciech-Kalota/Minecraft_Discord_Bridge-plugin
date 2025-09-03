@@ -1,2 +1,5 @@
-webhook-urls:
-  - 'your_webhook_url'
+token: 'token'
+
+channel-ids:
+  - 'channel-id'
+
