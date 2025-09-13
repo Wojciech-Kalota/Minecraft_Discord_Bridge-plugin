@@ -2,6 +2,7 @@
 Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and Paper servers
 
 # How to run
+(takes 5-10 min to configure everything)
 ## Install the plugin
 - [Download the JAR file](github.com/Wojciech-Kalota/Minecraft_Discord_Bridge-plugin/releases/download/1.21/MinecraftDiscordBridge-2.0.jardi)
 - Put it in your server's plugin folder
@@ -15,6 +16,7 @@ Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and P
 - Go to `Settings` -> `OAuth2`
 - In `OAuth2 URL Generator` select the bot scope and `copy` the `generated URL`
 - Add the bot to your Discord server by pasting the copied URL into the browser
+- Make sure your bot has all the necessary permissions
 ## Configure the plugin
 - In the `MinecraftDiscordBridge` folder find `config.yml`
 - In `config.yml` replace token with your bot's token
