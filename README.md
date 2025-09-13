@@ -1,5 +1,5 @@
 # Minecraft_Discord_Bridge-plugin
-Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and Paper servers
+Plugin that merges Discord and Minecraft chat into one for Paper servers
 
 # How to run
 (takes 5-10 min to configure everything)
