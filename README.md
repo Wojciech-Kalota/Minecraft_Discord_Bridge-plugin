@@ -5,7 +5,7 @@ Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and P
 ## Install the plugin
 - [Download the JAR file](github.com/Wojciech-Kalota/Minecraft_Discord_Bridge-plugin/releases/download/1.21/MinecraftDiscordBridge-2.0.jardi)
 - Put it in your server's plugin folder
-- Restart and run the server
+- Restart and run the server (you will see errors as the setup is not completed)
 ## Setup a Discord bot
 - Go to [Developer Portal](https://discord.com/developers/applications)
 - Create a new application
