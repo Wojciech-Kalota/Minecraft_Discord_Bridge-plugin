@@ -4,7 +4,6 @@ import me.regos.minecraftdiscordbridge.Minecraft_Discord_bridge;
 import me.regos.minecraftdiscordbridge.controllers.ToDiscordController;
 import me.regos.minecraftdiscordbridge.listeners.BaseListener;
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
-import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
@@ -16,8 +15,10 @@ public class PlayerDeathListener extends BaseListener {
 
     @EventHandler
     public void OnPlayerDeath(PlayerDeathEvent e) {
-        String minecraftMessage = PlainTextComponentSerializer.plainText().serialize(e.deathMessage());
-        String fullMessage = escapeMarkdown(minecraftMessage);
-        controller.distribute(fullMessage);
+        if (e.deathMessage() != null) {
+            String minecraftMessage = PlainTextComponentSerializer.plainText().serialize(e.deathMessage());
+            String fullMessage = escapeMarkdown(minecraftMessage);
+            controller.distribute(fullMessage);
+        }
     }
 }
