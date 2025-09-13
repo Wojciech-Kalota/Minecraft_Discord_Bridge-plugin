@@ -11,6 +11,7 @@ Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and P
 - Create a new application
 - Go to `Settings` -> `Bot`
 - Reset the token and save it for later
+- Make sure your bot has `Message Content Intent` checked
 - Go to `Settings` -> `OAuth2`
 - In `OAuth2 URL Generator` select the bot scope and `copy` the `generated URL`
 - Add the bot to your Discord server by pasting the copied URL into the browser
