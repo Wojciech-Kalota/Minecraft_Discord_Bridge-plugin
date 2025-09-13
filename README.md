@@ -9,14 +9,14 @@ Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and P
 ## Setup a Discord bot
 - Go to [Developer Portal](https://discord.com/developers/applications)
 - Create a new application
-- Go to Settings -> Bot
+- Go to `Settings` -> `Bot`
 - Reset the token and save it for later
-- Go to Settings -> OAuth2
-- In OAuth2 URL Generator select the bot scope and copy the generated URL
+- Go to `Settings` -> `OAuth2`
+- In `OAuth2 URL Generator` select the bot scope and `copy` the `generated URL`
 - Add the bot to your Discord server by pasting the copied URL into the browser
 ## Configure the plugin
-- In the MinecraftDiscordBridge folder find config.yml
-- In config.yml replace token with your bot's token
-- In config.yml replace the channel-id with the Discord channel ID you want messages to be sent to (supports multiple)
+- In the `MinecraftDiscordBridge` folder find `config.yml`
+- In `config.yml` replace token with your bot's token
+- In `config.yml` replace the channel-id with the Discord channel ID you want messages to be sent to (supports multiple)
 - Restart and run the server 
 - Enjoy :)
