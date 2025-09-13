@@ -2,7 +2,7 @@
 Plugin that merges Discord and Minecraft chat into one for Bukkit, Spigot, and Paper servers
 
 # How to run
-## Setup plugin
+## Install the plugin
 - Download the JAR file from <link>
 - Put it in your server's plugin folder
 - Restart and run the server
